@@ -1,0 +1,58 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'arialregular', sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    padding-bottom: 10px;
+    list-style-type: disc;
+}
+span{
+	font-weight: bold;
+}
+.page-wrapper {
+    margin: 0 auto;
+    max-width: 980px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+footer {
+    width: 100%;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.contacts {
+    width: 50%;
+    float: left;
+    padding: none;
+}
+
+.contacts p {
+    margin: 0;
+}
+
+.contacts a:hover {
+    text-decoration: none;
+}
+
+footer img {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
